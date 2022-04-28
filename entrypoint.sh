@@ -12,6 +12,7 @@ set -e
 : "${TARGET_SECRET_KEY?TARGET_SECRET_KEY environment variable must be set}"
 : "${TARGET_BUCKET?TARGET_BUCKET environment variable must be set}"
 
+mkdir -p ~/.mc
 cat <<EOF > ~/.mc/config.json
 {
 	"version": "10",
