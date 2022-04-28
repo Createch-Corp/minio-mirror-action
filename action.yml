@@ -1,0 +1,9 @@
+name: 'MinIO mirror'
+description: 'Github action to mirror between two MinIO buckets'
+author: Mariusz Stępień
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: 'folder'
+  color: 'purple'
