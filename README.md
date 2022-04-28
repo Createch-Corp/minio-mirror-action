@@ -6,7 +6,7 @@ Github action to mirror between two MinIO buckets
 
 ```yml
 - name: MinIO mirror
-  uses: Createch-Corp/minio-mirror-action
+  uses: Createch-Corp/minio-mirror-action@v1
   env:
     SOURCE_URL: ${{ secrets.MINIO_URL }}
     SOURCE_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
